@@ -11,4 +11,8 @@ permalink: :title/
 sass:
   sass_dir: _sass
   style: compressed
-  
+
+# Social icons
+#show_social_icons: true
+#github_username: someGithubUser
+#twitter_username: someTwitterUser  
