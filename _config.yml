@@ -7,6 +7,7 @@ author: "Dan Carroll"
 description: Blog site for TLC Nails
 
 # Build settings
+
 sass:
   sass_dir: _sass
   style: compressed

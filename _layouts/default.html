@@ -6,7 +6,9 @@
   <body>
 
 {% include header.html %}
-{% include banner.html %}
+{% if page.banner == "show" %}
+	{% include banner.html %}
+{% endif %}
 {{ content }}
 
 {% include footer.html %}
