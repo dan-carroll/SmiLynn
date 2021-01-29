@@ -9,18 +9,11 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item">
-          <a href="{{ site.baseurl }}/" class="nav-link">Home</a>
-        </li>
-        <li class="nav-item">
-          <a href="{{ site.baseurl }}/posts/" class="nav-link">Posts</a>
-        </li>
-        <li class="nav-item">
-          <a href="{{ site.baseurl }}/gallery/" class="nav-link">Gallery</a>
-        </li>
-        <li class="nav-item">
-          <a href="{{ site.baseurl }}/about/" class="nav-link">About</a>
-        </li>
+		{% for item in site.data.navigation %}
+			<li class="nav-item">
+				<a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+			</li>
+		{% endfor %}
       </ul>
     </div>
   </div>

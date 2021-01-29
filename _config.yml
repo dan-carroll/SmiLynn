@@ -1,13 +1,12 @@
 # Site settings
-title: "TLC Nails"
-email: "dcarroll809@gmail.com"
-author: "Dan 'Floridan' Carroll"
-description: Blog site for TLC Nails
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
+title: "TLC Nails"
+email: "dcarroll809@gmail.com"
+author: "Dan Carroll"
+description: Blog site for TLC Nails
 
 # Build settings
-permalink: :title/
 sass:
   sass_dir: _sass
   style: compressed

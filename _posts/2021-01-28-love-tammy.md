@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Love Tammy
+author: "Dan Carroll"
 summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, dolore.
 ---
 
