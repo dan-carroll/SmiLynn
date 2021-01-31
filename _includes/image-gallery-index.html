@@ -1,0 +1,10 @@
+  <div class="row text-center text-lg-left">
+  {% for item in page.galleries %}
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="{{ item.url }}" class="d-block mb-4 h-100" title="{{ item.title }}">
+		<img class="img-fluid img-thumbnail" src="{{ item.image }}" alt="{{ item.title }}">
+		<span class="caption">{{ item.title }}</span>
+      </a>
+    </div>
+  {% endfor %}
+  </div>

@@ -1,14 +1,15 @@
 ---
 layout: default
 title: Gallery
+galleries:
+  - title: "Color Street"
+    image: /assets/gallery/color_street/ColorStreet008.jpg
+    url: /Gallery/Color_Street.html
+  - title: "Tammy's Pics"
+    image: /assets/gallery/tammy/tammy.jpg
+    url: /Gallery/Tammy.html
 ---
 <div id="gallery" class="container pt-3">
-  <div class="row">
-    <div class="col">
 	  <h1>{{ page.title }}</h1>
-      <p class="lead text-info">
-        This page displays albums of images
-      </p>
-    </div>
-  </div>
+	  {% if page.galleries %}{% include image-gallery-index.html %}{% endif %}
 </div>
